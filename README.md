@@ -157,4 +157,3 @@ All summary files were recomputed independently from the per-observation files w
 
 - **Licence:** the files in this record (results, metadata and documentation) are released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/). Third-party data are not included: the chest radiographs (Kermany *et al.*, 2018, CC BY 4.0) must be obtained from their source, and the logos (no licence specified by their uploader) are not redistributed.
 - **Citation:** cite this record and the article.
-"# blind-watermarking-chest-xray-data" 
