@@ -1,0 +1,28 @@
+Attaque,nominal,mean,std
+Average [3x3],0.0,0.0,0.0
+Cropping 10%,0.0,0.0,0.0
+Cropping 25%,0.0,0.0,0.0
+Gaussian (0.0001),0.0,0.0,0.0
+Gaussian (0.0005),0.0,0.0,0.0
+Gaussian Blur [3x3],0.0,0.0,0.0
+Histogram Eq.,0.0,0.0,0.0
+JPEG QF=10,0.0,0.0,0.0
+JPEG QF=30,0.0,0.0,0.0
+JPEG QF=50,0.0,0.0,0.0
+JPEG QF=70,0.0,0.0,0.0
+JPEG QF=90,0.0,0.0,0.0
+Median [3x3],0.0,0.0,0.0
+Median [5x5],0.0,0.0,0.0
+No Attack,0.0,0.0,0.0
+Rotation +1 deg,1.0,1.0,0.0
+Rotation +3 deg,3.0,3.0,0.0
+Rotation +5 deg,5.0,5.0,0.0
+Rotation -1 deg,-1.0,-1.0,0.0
+Rotation -3 deg,-3.0,-3.0,0.0
+Rotation -5 deg,-5.0,-5.0,0.0
+Salt & Pepper (0.0005),0.0,0.0,0.0
+Scaling 0.5x,0.0,0.0,0.0
+Scaling 1.5x,0.0,0.0,0.0
+Sharpening,0.0,0.0,0.0
+Speckle (0.001),0.0,0.0,0.0
+Speckle (0.005),0.0,0.0,0.0

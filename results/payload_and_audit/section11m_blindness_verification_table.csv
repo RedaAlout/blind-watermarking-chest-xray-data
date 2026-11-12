@@ -1,0 +1,19 @@
+Information,Présente non-blind,Présente blind payload
+cover_img,False,False
+original_img,False,False
+reference_img,False,False
+watermarked_u8,True,False
+U_HL1,True,False
+s_HL1,True,False
+Vt_HL1,True,False
+U_LH1,True,False
+s_LH1,True,False
+Vt_LH1,True,False
+U_W1,True,False
+s_W1,True,False
+Vt_W1,True,False
+U_W2,True,False
+s_W2,True,False
+Vt_W2,True,False
+HL2_orig,True,False
+LH2_orig,True,False

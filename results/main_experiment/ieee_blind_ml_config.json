@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-10-26T11:58:54",
+  "global_seed": 2025,
+  "cover_size": [
+    512,
+    512
+  ],
+  "watermark_input_size": [
+    256,
+    256
+  ],
+  "blind_watermark_shape": [
+    64,
+    64
+  ],
+  "blind_watermark_mode": "binary",
+  "alpha_fixed": 0.07,
+  "alpha1_fixed": 10.0,
+  "image_repetition": 5,
+  "text_repetition": 5,
+  "text_copies": 3,
+  "pilot_bits": 64,
+  "pilot_repetition": 5,
+  "wavelet": "haar",
+  "dwt_mode": "symmetric",
+  "ml_role": "blind extractor / decoder, not alpha selector",
+  "split_rule": "train/val/test by cover image",
+  "mode_debug_train": null,
+  "mode_debug_val": null,
+  "mode_debug_test": null,
+  "active_config": {
+    "GAIN_ALPHA1": 10.0,
+    "BLIND_TEXT_REPETITION": 5,
+    "BLIND_TEXT_COPIES": 3,
+    "votes_per_text_bit": 15,
+    "rotation_grid_deg": [
+      -6.0,
+      6.0,
+      25
+    ],
+    "BLIND_USE_INTERLEAVING": true,
+    "BLIND_USE_BCH": true,
+    "BLIND_USE_SOFT_BCH": true,
+    "DISABLE_BLIND_IMG_ML": false,
+    "IEEE_MODEL_TREES": 150,
+    "BLIND_ML_MAX_DEPTH": 25,
+    "BLIND_ML_MIN_LEAF": 5,
+    "BLIND_ML_MIN_SPLIT": 10,
+    "n_attack_weights": 6
+  }
+}

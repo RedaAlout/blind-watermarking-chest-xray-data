@@ -1,0 +1,7 @@
+Étape,Valeur,Note
+Insertion blind (par image),0.036 s,Seul run
+"Extraction blind (par image, n=3 runs)",0.361 ± 0.006 s,Mean ± std
+"Extraction blind + resynchronisation (par image, n=3 runs)",0.614 ± 0.005 s,Recherche d'angle sur pilotes incluse
+"Entraînement ML (one-shot, offline)",3647.9 s,Hors runtime opérationnel
+Payload blind (par image),613 bytes,Clé + payload minimal + pilotes
+Modèles ML (statique),464535964 bytes,"Partagé une fois, hors payload par image"

@@ -1,0 +1,2 @@
+n_attacks,NC gain > 0 (attacks),NC gain < 0 (attacks),NC gain > 0 et p<0.05,NC gain mean (avg attacks),BER gain > 0 (attacks),BER gain < 0 (attacks),BER gain > 0 et p<0.05,BER gain mean (avg attacks)
+26,15/26,4/26,14/26,0.0016,3/26,0/26,3/26,0.0132

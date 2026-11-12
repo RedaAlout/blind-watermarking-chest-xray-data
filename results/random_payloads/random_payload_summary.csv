@@ -1,0 +1,8 @@
+,mean,mean,std,std,n,n
+payload,random,training,random,training,random,training
+attack,,,,,,
+Average [3x3],0.0,0.0,0.0,0.0,20,20
+JPEG QF=30,0.0047,0.0052,0.0153,0.0119,20,20
+Median [5x5],0.3073,0.3036,0.0696,0.059,20,20
+No Attack,0.0,0.0,0.0,0.0,20,20
+Rotation +3 deg,0.0,0.0,0.0,0.0,20,20

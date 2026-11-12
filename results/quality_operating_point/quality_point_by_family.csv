@@ -1,0 +1,5 @@
+,R_img=5 (publie),R_img=5 (publie),R_img=5 (publie),R_img=1,R_img=1,R_img=1
+,NC_hard,BER_logo,BER_text,NC_hard,BER_logo,BER_text
+Famille,,,,,,
+non-rotations,0.8862,0.1422,0.0349,0.8533,0.1794,0.0324
+rotations,0.9996,0.0005,0.0,0.9758,0.0298,0.0
