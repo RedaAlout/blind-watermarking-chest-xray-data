@@ -9,12 +9,13 @@
 ## 1. What this record contains
 
 - the result files written by the research notebook (`results/`), byte-for-byte except for one documented path substitution (§12);
+- the research notebook `DWT_SVD_Watermarking.ipynb` that wrote these files, with its saved outputs (§7, §12);
 - the cover and logo split lists and the logo assignment (`metadata/splits/`);
 - a manifest of every result file with its experiment, run, notebook cell and manuscript reference (`metadata/experiment_manifest.csv`);
 - the software environment (`metadata/environment_information.txt`) and a provenance and verification report (`metadata/provenance_report.md`);
 - `CHECKSUMS.sha256` for all files.
 
-It contains **no medical images and no logo images** (§6). The trained models and the source code are not part of this record (§7).
+It contains **no medical images and no logo images** (§6). The trained models are not part of this record (§7).
 
 ## 2. Directory structure
 
@@ -22,6 +23,7 @@ It contains **no medical images and no logo images** (§6). The trained models a
 JVCIR_Watermarking_Research_Data/
 ├── README.md
 ├── CHECKSUMS.sha256
+├── DWT_SVD_Watermarking.ipynb    research notebook (all experiments)
 ├── results/
 │   ├── main_experiment/          Tables 3, 8, 9; Figs. 4, 5
 │   ├── statistical_analysis/     Table 12
@@ -117,7 +119,7 @@ Tables 1 and 2 contain no experimental results; Figs. 1 and 2 are diagrams of th
 ## 7. Trained models and source code
 
 - **Trained models:** not included in this record. They occupy 464,535,964 bytes, as stated in the manuscript.
-- **Source code:** not included in this record. See the Data availability statement of the article.
+- **Source code:** the research notebook `DWT_SVD_Watermarking.ipynb` (76 cells: 49 code, 27 Markdown) is included, with the outputs of the run described in `metadata/provenance_report.md`. `metadata/experiment_manifest.csv` gives the notebook cell that writes each result file.
 
 ## 8. Dependencies
 
@@ -141,6 +143,7 @@ All summary files were recomputed independently from the per-observation files w
 ## 12. Modifications relative to the notebook outputs
 
 - In the four files that contain a `cover_path` column, the private Windows home folder of the account that ran the experiments was replaced by `<HOME>`. No other byte was changed: line endings (CRLF) and all values are preserved. `metadata/provenance_report.md` gives the SHA-256 of both versions.
+- In the saved outputs of `DWT_SVD_Watermarking.ipynb`, the same home folder was replaced by `<HOME>` (93 occurrences, all in printed text outputs). No code cell and no other byte was changed. SHA-256 of the original notebook: `a4d339e0451a5cca1a953e38f14d35386601072c1c23c37f15c52b319b619c0b`; of the archived one: `51408298c390ec016ae19b99d6e52cf1035218cc705252961eae65d7de88c02b`.
 - Byte-identical duplicates written by the notebook under two names were stored once (listed in the provenance report).
 
 ## 13. Known limitations
